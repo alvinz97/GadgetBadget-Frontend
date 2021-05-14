@@ -17,17 +17,17 @@
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
 	    <div class="navbar-header">
-	      <a class="navbar-brand" href="ResearcherManagement.jsp">GadgetBadget</a>
+	      <a class="navbar-brand" href="OrderManagement.jsp">GadgetBadget</a>
 	    </div>
 	    <ul class="nav navbar-nav">
-	      <li class=""><a href="ResearcherManagement.jsp">Order Management</a></li>   
+	      <li class=""><a href="OrderManagement.jsp">Order Management</a></li>   
 	    </ul>
 	  </div>
 	</nav>
 
 	<div class="container"><div class="row"><div class="col-6"> 
 		<h1 id="h1_header">Order Management</h1>
-		<form id="formResearcher" name="formResearcher">
+		<form id="formOrder" name="formOrder">
 			 	Order code: 
 			 <input id="orderCode" name="orderCode" type="text" 
 			 class="form-control form-control-sm">
@@ -68,7 +68,7 @@
 		<div id="alertSuccess" class="alert alert-success"></div>
 			<div id="alertError" class="alert alert-danger"></div>
 			<br>
-			<h2 id="h2_header">All The Researchers' Records</h2><br>
+			<h2 id="h2_header">All The Orders' Records</h2><br>
 				<div id="divItemsGrid">
 				 <%
 				 	 OrderManagement orderManagement = new OrderManagement(); 
